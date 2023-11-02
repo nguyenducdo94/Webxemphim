@@ -92,7 +92,7 @@
                                     placeholder="V.d: tên phim, tên diễn viên..." value="">
                                 <i class="fa fa-search" onclick="$('#form_search').submit();"></i>
                             </form>
-                        </div>Phimchill
+                        </div>
                         <div id="box-user-menu" class="actions-user right">
                             <ul>
                                 <li>
@@ -480,11 +480,13 @@
             document.querySelector(".top").style.display = 'none';
             document.querySelector(".btn-humber").style.display = 'block';
             document.querySelector("#responsive-logo").style.display = 'block';
+            document.querySelector("#responsive-main-menu").style.display = 'block';
 
         } else {
             document.querySelector(".top").style.display = 'block';
             document.querySelector(".btn-humber").style.display = 'none';
             document.querySelector("#responsive-logo").style.display = 'none';
+            document.querySelector("#responsive-main-menu").style.display = 'none';
         }
 
         window.addEventListener('resize', function () {
@@ -492,11 +494,13 @@
                 document.querySelector(".top").style.display = 'none';
                 document.querySelector(".btn-humber").style.display = 'block';
                 document.querySelector("#responsive-logo").style.display = 'block';
+                document.querySelector("#responsive-main-menu").style.display = 'block';
 
             } else {
                 document.querySelector(".top").style.display = 'block';
                 document.querySelector(".btn-humber").style.display = 'none';
                 document.querySelector("#responsive-logo").style.display = 'none';
+                document.querySelector("#responsive-main-menu").style.display = 'none';
             }
         });
     </script>
